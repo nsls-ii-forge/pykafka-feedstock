@@ -27,6 +27,7 @@ requirements:
     - gevent
     - kazoo >=2.5.0
     - librdkafka              # [not win]
+    - pip
     - six >=1.5
     - tabulate
 
