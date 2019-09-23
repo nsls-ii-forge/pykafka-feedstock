@@ -7,7 +7,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
@@ -43,7 +42,6 @@ about:
   license_family: Apache
   license_file: LICENSE
   summary: 'Apache Kafka client for Python; high-level & low-level consumer/producer, with great performance'
-
   description: |
       PyKafka is a cluster-aware Kafka>=0.8.2 client for Python. It includes
       Python implementations of Kafka producers and consumers, which are
@@ -55,8 +53,3 @@ about:
       exposing the most Pythonic API possible.
   doc_url: http://pykafka.readthedocs.org/
   dev_url: https://github.com/parsely/pykafka
-
-extra:
-  recipe-maintainers:
-    - mrocklin
-    - emmett9001
