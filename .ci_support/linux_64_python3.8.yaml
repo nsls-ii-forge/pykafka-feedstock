@@ -1,0 +1,25 @@
+c_compiler:
+- gcc
+c_compiler_version:
+- '7'
+cdt_name:
+- cos6
+channel_sources:
+- nsls2forge,defaults
+channel_targets:
+- nsls2forge main
+docker_image:
+- quay.io/condaforge/linux-anvil-comp7
+librdkafka:
+- '1.4'
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '3.8'
+target_platform:
+- linux-64
+zip_keys:
+- - cdt_name
+  - docker_image

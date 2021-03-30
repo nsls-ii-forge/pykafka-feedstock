@@ -1,5 +1,7 @@
 c_compiler:
-- vs2015
+- vs2017
+cdt_name:
+- cos6
 channel_sources:
 - nsls2forge,defaults
 channel_targets:
@@ -9,7 +11,6 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.6'
-zip_keys:
-- - python
-  - c_compiler
+- '3.7'
+target_platform:
+- win-64
